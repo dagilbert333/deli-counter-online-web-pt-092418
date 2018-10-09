@@ -9,7 +9,7 @@ def line(array)
     array.each_with_index do |person, index| 
       line_message << " #{index+1}. #{person}"
     end
-    return message + line_message.join(" ")
+    puts message + line_message.join(" ")
   end
 end
 
