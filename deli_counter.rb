@@ -3,7 +3,7 @@ katz_deli = []
 def line(array) 
   if array.size == 0
     puts "The line is currently empty."
-  else 
+  else array.size >= 1
     message = "The people in line are: "
     line_message = []
     array.each_with_index do |person, index| 
